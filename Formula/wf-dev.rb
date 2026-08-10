@@ -1,5 +1,5 @@
-class Wf < Formula
-  desc "CLI for Wayfinder - self-service cloud infrastructure platform"
+class WfDev < Formula
+  desc "Release-candidate build of the Wayfinder CLI"
   homepage "https://www.appvia.io/wayfinder"
   version "3.1.0"
   license "Apache-2.0"
@@ -22,6 +22,7 @@ class Wf < Formula
     end
   end
 
+  conflicts_with "wf", because: "wf-dev and wf both install a wf binary"
   def install
     bin.install Dir["wf-cli-*"].first => "wf"
   end
