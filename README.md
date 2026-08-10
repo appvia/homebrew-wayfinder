@@ -11,6 +11,9 @@ brew install wf
 wf version
 ```
 
+`brew install wayfinder` is an alias for `brew install wf` and installs the same
+formula, so either name works. The installed command is always `wf`.
+
 Upgrade to newer releases later with `brew upgrade wf`.
 
 ## Formulae
