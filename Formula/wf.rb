@@ -24,6 +24,7 @@ class Wf < Formula
 
   def install
     bin.install Dir["wf-cli-*"].first => "wf"
+    bin.install_symlink "wf" => "wayfinder"
   end
 
   test do

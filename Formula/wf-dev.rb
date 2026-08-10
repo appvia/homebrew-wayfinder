@@ -25,6 +25,7 @@ class WfDev < Formula
   conflicts_with "wf", because: "wf-dev and wf both install a wf binary"
   def install
     bin.install Dir["wf-cli-*"].first => "wf"
+    bin.install_symlink "wf" => "wayfinder"
   end
 
   test do
