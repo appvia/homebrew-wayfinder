@@ -1,6 +1,6 @@
 class WfDev < Formula
   desc "Release-candidate build of the Wayfinder CLI"
-  homepage "https://www.appvia.io/wayfinder"
+  homepage "https://getwayfinder.io"
   version "3.1.0"
   license "Apache-2.0"
 

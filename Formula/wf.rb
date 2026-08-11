@@ -1,6 +1,6 @@
 class Wf < Formula
   desc "CLI for Wayfinder - self-service cloud infrastructure platform"
-  homepage "https://www.appvia.io/wayfinder"
+  homepage "https://getwayfinder.io"
   version "3.1.0"
   license "Apache-2.0"
 
