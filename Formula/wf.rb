@@ -1,28 +1,28 @@
 class Wf < Formula
   desc "CLI for Wayfinder - self-service cloud infrastructure platform"
   homepage "https://getwayfinder.io"
-  version "3.3.2"
+  version "3.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://on.wayfinder.run/cli/v3.3.2/wf-cli-darwin-amd64.tar.gz"
-      sha256 "b4695d8583642d78db7a53298d628d38eadf9db16fcaa7c0c9797a5473998ca7"
+      url "https://on.wayfinder.run/cli/v3.4.0/wf-cli-darwin-amd64.tar.gz"
+      sha256 "ff9cc75b1513a895d5b2241ad300a1ddaaa0a0bc25cec3c9aedb6f3eee54b58d"
     end
     on_arm do
-      url "https://on.wayfinder.run/cli/v3.3.2/wf-cli-darwin-arm64.tar.gz"
-      sha256 "c6fab362c95a2ac69a7b437b58f0d345b84c53ed4010c90da68e6ce93e5f32b3"
+      url "https://on.wayfinder.run/cli/v3.4.0/wf-cli-darwin-arm64.tar.gz"
+      sha256 "1b1527d10c4c2f9aa9198b2fae1328e216ae1c0bd11747f1eb11af2c238b6503"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://on.wayfinder.run/cli/v3.3.2/wf-cli-linux-amd64.tar.gz"
-      sha256 "2cd507c21ae6a4bf409e69ae06ee395aecf696ee5826ebd4e67affdae2545f89"
+      url "https://on.wayfinder.run/cli/v3.4.0/wf-cli-linux-amd64.tar.gz"
+      sha256 "c33f231f2ada936945099efd9252842db8ed05c452d99f25fbf4549a601ecb18"
     end
     on_arm do
-      url "https://on.wayfinder.run/cli/v3.3.2/wf-cli-linux-arm64.tar.gz"
-      sha256 "8c500c1893651b19accd91455bfc0350c99551b8424bc6cb799b0149590338a2"
+      url "https://on.wayfinder.run/cli/v3.4.0/wf-cli-linux-arm64.tar.gz"
+      sha256 "08570451a6c2b8b78a20305a9736c7da43fb39f3535bd41669fdf58036072432"
     end
   end
 
